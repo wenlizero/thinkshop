@@ -1,0 +1,192 @@
+/*...........首页样式 start............*/
+*{margin:0;padding:0;font-family:微软雅黑}
+body,html{width:100%;height:auto;font-size:14px;}
+/*分类导航样式*/
+.main{width:980px;margin:10px auto;}
+.main .menu{height:40px;border-bottom:2px #C9C9C9 solid;padding-left:30px;}
+.main .menu ul li{float:left;line-height:40px;}
+.main .menu ul li a{color:#313131;margin:0 20px;}
+.main .menu ul li a:hover{color:#32A4E0;}
+
+/*产品样式*/
+.product{margin:10px 0;}
+.product .pro{width:170px;height:260px;border:1px #EFEFEF solid;margin:16px;padding:20px;float:left;}
+.pro img{width:100%;height:180px;transition:300ms box-shadow, margin-left 300ms;}
+.pro img:hover{box-shadow:3px 10px 10px #ccc;margin-left:1px}
+.pro .pname{width:170px;height:30px;line-height:30px;font-size:20px;}
+.pro .price{width:170px;margin:0 auto;margin-top:10px;text-align:center;}
+.pn{width:150px;margin:0px 8px;}
+.pname:link,.pname:visited{font-size:12px;color:#666}
+.pname:hover,.pname:active{font-size:12px;color:#25A7DB ;}
+.price strike{color:#666;}
+.price span{color:#ff9933;margin-left:25px;}
+
+/*配送方式*/
+.state{width:980px;margin:20px auto 10px;height:35px;}
+.state .state_l{float:left;}
+.state .state_l ul li{float:left;margin-left:15px;line-height:35px;color:#969696;}
+.state .state_l ul li span{color:#25A7DB;}
+.state .state_r{float:right;}
+.state .state_r ul li{float:left;line-height:35px;color:#969696;} 
+.state .state_r ul li a{color:#969696;margin:0 10px;}
+.state .state_r ul li a:hover{color:#25A7DB;}
+/*...........首页样式 end............*/
+
+
+/*...........列表页样式 start............*/
+
+/*商品简介*/
+.proIntro{width:980px;margin:20px auto;}
+.proIntro_l{width:400px;border:1px #e9e9e9 solid;float:left;}
+.proIntro_l .picshow{width:380px;margin:10px;}
+.picshowed{width:400px;margin:0px auto;margin-bottom:10px;}
+.picshowed ul li {float:left;}
+.picshowed ul li img{width:80px;height:70px;display:block;margin:0 9px;	}
+
+.proIntro_r{width:530px;float:right;}
+.proIntro_r h3{font-size:20px;color:#161616;font-family:微软雅黑;height:30px;line-height:22px;border-bottom:2px #CCCCCC solid;letter-spacing:2px;overflow:hidden;white-space:nowrap;}
+.keyword{color:#8D8D8D;height:35px;line-height:35px;}
+.pinfo{width:100%;height:437px;border:0px solid ;}
+.pinfo div{margin:26px 0px ;color:#666;font-size:18px;}
+.sp_col{display:inline-block;width:20px;height:20px; border-radius:2px;}
+.num{width:80px;height:25px;font-size:18px;line-height:25px;border:1px solid #666;color:#25A7DB;}
+.num_change{cursor:pointer;font-size:18px;color: #666;}
+.go{width:130px;height:40px;line-height:40px;text-align:center;color:white;font-size:18px;cursor:pointer;border-radius:5px;letter-spacing:5px;float:left;}
+.dobuy{ background:#25A7DB;}
+.docart{ background:#ff9933;width:150px;margin-left:138px;}
+
+/*商品描述*/
+.describe{width:950px;margin:10px auto;height:40px;border-bottom:1px #e9e9e9 solid;padding-left:30px;}
+.describe p{line-height:40px;color:#8D8D8D;font-weight:bold;}
+.pro_des{width:950px;margin:20px auto;padding:10px;}
+.pro_des p{color:#282828;text-indent:2em;line-height:26px;letter-spacing:1px;}
+
+/*用户评论*/
+.comment{width:950px;margin:10px auto;height:40px;border-bottom:1px #e9e9e9 solid;padding-left:30px;}
+.comment p{line-height:40px;color:#8D8D8D;font-weight:bold;}
+.comment_p{width:950px;margin:20px auto;}
+.comment_p .users{margin-top:20px;border-bottom:1px #e9e9e9 solid;}
+.comment_p .users p{line-height:40px;color:#646464;}
+.comment_p .users p span{margin-left:20px;}
+/*...........列表页样式 end............*/
+
+/*...........购物车样式 start............*/
+.shop_car{width:980px;margin:20px auto;border-bottom:3px #CACACA solid;}
+.car_bt{width:980px;height:35px;border-bottom:3px #CACACA solid;}
+.car_bt div {float:left;font-weight:bold;line-height:35px;color:#000;font-size:16px;}
+
+.car_list{width:100%;height:120px;padding:20px;}
+.car_list div{display:inline-block;margin:0px 25px;font-size:18px;height:90px;}
+.car_list .pimg{width:120px;margin-left:10px;}
+.car_list .pname{width:200px;overflow:hidden;}
+.car_list .pattr{width:88px;position:relative;top:-50px;left:-20px;}
+.namea:link,.namea:visited{color:#000;font-size:18px;}
+.namea:hover,.namea:active{color:#6CBDEC;font-size:18px;text-decoration:none;}
+.car_list .pprice{position:relative;top:-70px;left:0px;}
+.car_list .pnum{width:96px;position:relative;top:-40px;left:40px}
+.car_list .pnum .number{width:60px;font-size:18px;color:#0099ff;text-align:center;}
+.car_list .pnum span{font-size:18px;color:#0099ff;cursor:pointer;}
+.car_list .pmenu{width:100px;position:relative;top:-70px;left:30px}
+.pedit{color:#000;font-size:18px;background:#fff;border:0px;cursor:pointer;}
+.pedit:hover{color:#6CBDEC;font-size:18px;}
+.pdel:link,.pdel:visited{color:#000;font-size:18px;}
+.pdel:hover,.pdel:active{color:#ff9933;font-size:18px;text-decoration:none;}
+.kucun{color:#ccc;font-size:12px;}
+.pcolor{display:inline-block;width:20px;height:20px;border-radius:3px;margin-bottom:-5px;}
+/*更新购物车 start*/
+.total{width:980px;margin:0 auto;}
+.total .update{display:inline-block;text-align:center;width:140px;height:40px;line-height:40px;font-size:18px;letter-spacing:2px;cursor:pointer;background:#6CBDEC;border:none;
+			   border-radius:3px;margin-left:60px;color:#fff;}
+.total .update:hover{text-decoration:none;	}
+.total font{float:right;line-height:40px;}
+.total font span{color:#FD4E0D;font-size:28px;font-family:Arial;margin-right:20px;}
+/*更新购物车 end*/
+.settle{width:960px;margin:10px auto;padding-right:20px;}
+.set_jx{float:right;height:40px;padding:0 30px;cursor:pointer;border-radius:3px;border:none;}
+.set_jx+.set_jx{background:#6CBDEC;color:#fff;}
+.set_jx:first-child{background:#F6F6F6;margin-left:10px;font-size:16px;}
+/*...........购物车样式 end............*/
+
+/*...........收货地址样式 start............*/
+.addr{width:980px;margin:0px auto;border-top:3px solid #CACACA;border-bottom:3px solid #CACACA;}
+.form-addr{display:inline-block;width:80px;height:50px;line-height:50px;font-size:16px;}
+.addr-div{width:500px; height:50px;font-size:16px;}
+.addrDel{position:relative;left:600px;top:-22px}
+.addr-del:link,.addr-del:visited{font-size:16px;color:#6CBDEC;}
+.addr-del:hover,.addr-del:active{font-size:16px;color:#ff9933;text-decoration:none;}
+.addr-add{margin:20px 0px  10px 20px;}
+.addr-form{margin-left:20px ;}
+.addr-info{margin:10px 20px;}
+.addr-ul{margin-top:20px;}
+.addr-li{margin:5px 20px;font-size:16px;}
+.addr-inp{width:300px;height:30px;line-height:30px;border-radius:2px;font-size:16px;}
+.addr-save{width:120px;height:40px;background:#6CBDEC;text-align:center;border-radius:5px;font-size:18px;color:white;letter-spacing:10px;margin-left:80px;}
+.addr-default{margin-left:80px;margin-top:15px;}
+.cancel{background:#ccc;margin-left:30px;}
+/*...........收货地址样式 end............*/
+
+/*...........注册页样式 start............*/
+.reg{width:980px;margin:30px auto;height:30px;line-height:30px;font-size:20px;}
+.reg_p{width:980px;margin:10px auto 100px;}
+.reg_p .reg_pl{width:370px;float:left;}
+.reg_pl img{margin-bottom:20px;}
+.reg_pl div{font-size:26px;line-height:35px;}
+.reg_pl div+div{font-size:14px;line-height:35px;color:#7A7A7A;letter-spacing:1px;}
+.reg_p .reg_pr{width:500px;float:right;}
+.reg_pr .reg_prd{width:430px;padding-bottom:18px;border-bottom:1px #E6E7E9 solid;}
+.reg_prd+.reg_prd{padding-top:18px;}
+.reg_prd div{height:40px;line-height:40px;}
+.reg_prd .worktime{height:40px;line-height:40px;text-align:right;margin-right:50px;}
+.reg_prd .center{text-align:center;}
+.center:link,.center:visited{color:#32A4E0;letter-spacing:3px;}
+.center:hover,.center:active	{text-decoration:underline;letter-spacing:3px;}
+.reg_prd .username{width:300px;height:30px;}
+.reg_prd .verify{width:100px;line-height:35px;height:30px;text-transform:lowercase;}
+.reg_prd #yzm{display:inline-block;letter-spacing:10px;background:#25A7DB;width:100px;line-height:32px;height:32px;font-size:20px;margin-left:30px;padding-left:10px;color:white;border-radius:3px;cursor:pointer;}
+.recept{margin-left:80px;}
+.reg_pr .register{width:302px;height:40px;line-height:40px;background:#25A7DB;font-size:20px;color:white;letter-spacing:50px;text-align:center;margin-left:80px;border-radius:5px;margin-top:20px;padding-left:50px;cursor:pointer;}
+.mname{display:inline-block;width:77px;height:32px;line-height:32px;letter-spacing:3px;text-align:right;}
+.tip{display:inline-block;width:18px;height:18px;border:0px solid red;background:url(../images/reg_icons.png) no-repeat scroll ;position:relative;top:6px;}
+/*...........注册页样式 end............*/
+
+/*...........订单完成样式 start............*/
+.do-div{width:970px;height:250px;margin:0px  auto;border:1px solid #CACACA;}
+.do-cog{text-align:center;color:#ff9900}
+.do-info{text-align:center;margin:15px auto;}
+.do-but{display:inline-block;background:#ff9900;width:80px;height:30px;line-height:30px;border-radius:5px;color:white;}
+.do-but:hover{text-decoration:none;}
+.do-index{background:#6CBDEC;margin-left:20px}
+.do-img{width:34px;height:34px;background:url(../images/reg_icons.png) no-repeat scroll -64px -46px;position:relative;left:340px;top:35px;}
+/*...........订单完成样式 end............*/
+
+/*...........用户中心样式 start............*/
+/*用户中心*/
+.ts-user{margin:10px 0;border:1px solid #ccc;;height:800px;padding:15px ;}
+.u-l{width:18%;border:1px solid #ccc ;border-radius:3px;}
+.u-r{width:80%;border:1px solid #ccc;border-radius:3px;margin-left:14px;}
+.u-div{width:100%;height:40px;}
+.u-div a{display:inline-block;width:100%;height:40px;line-height:40px;font-size:18px;text-align:center;text-decoration:none;letter-spacing:5px;}
+.u-div a:link,.u-div a:visited{color:#0099ff;}
+.u-div a:hover,.u-div a:active{background:#ff9933;color:white;border-radius:5px;}
+.u-wel{margin:10px;color:#0099ff;letter-spacing:5px;}
+/*用户中心--订单*/
+.u-order{width:96%;height:100px;border:0px solid #ccc;margin:15px auto;font-size:16px;}
+.u-on{background:#ff9933;color:white;}
+.u-handle:link,.u-handle:visited{color:#ff9933;font-weight:bold}
+.u-handle:hover,.u-handle:active{color:#ff9933;text-decoration:underline;font-weight:bold}
+.u-msg{cursor:pointer;color:#ff9933;font-weight:bold}
+
+.cover{width:100%;height:100%;background:#000;position:fixed;top:0;left:0;opacity:0.2;}
+.UMsg{width:600px;height:400px;position:fixed;left:50%;top:50%;margin-top:-200px;margin-left:-300px;background:#fff;border-radius: 5px;}
+.UTextarea{width:555px;height:250px;margin:20px;border:1px solid #ccc;}
+.URadio{margin:20px 10px 0px 20px;}
+.ULabel{font-size:14px;color:green;}
+.USubmit{width:100px;height:40px;line-height: 40px;text-align: center;font-size: 16px;background:#1e90ff;color:white;margin-left: 100px;letter-spacing: 10px;padding-left: 15px;border-radius: 5px;}
+.UButton{width:100px;height:40px;line-height: 40px;text-align: center;font-size: 16px;background:#ccc;color:#444;margin-left: 200px;letter-spacing: 10px;padding-left: 15px;border-radius:5px;}
+
+/*...........用户中心样式 end............*/
+
+/*...........新闻中心样式 start............*/
+.u-child:link,.u-child:visited{display:inline-block;margin:3px 50px;color:#646464;font-size: 16px;}
+.u-child:hover,.u-child:active{display:inline-block;margin:3px 50px;color:#646464;text-decoration:underline;font-size: 16px;}
+/*...........新闻中心样式 end............*/
